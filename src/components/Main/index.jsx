@@ -4,12 +4,12 @@ import { Links } from "src/components/Links";
 
 export function Main(props) {
   return (
-      <main className={styles.main}>
-        <Headline page={props.page}>
-          {<code className={styles.code}>pages/{props.page}.js</code>}
-        </Headline>
-        
-        <Links />
-      </main>
+    <main className={styles.main}>
+      <Headline page={props.page}>
+        {<code className={styles.code}>pages/{props.page}.js</code>}
+      </Headline>
+
+      <Links />
+    </main>
   );
 }
